@@ -6,4 +6,12 @@ while ($a <=10) {
     $a++;
 }
 
+echo '<hr>';
+
+$a = 5;
+do {
+    echo $a;
+    $a++;
+} while ($a <= 10);
+
 ?>
